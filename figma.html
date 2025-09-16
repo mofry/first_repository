@@ -2,21 +2,38 @@
 <html lang="eng">
     <head>
         <meta charset="utf-8">
+        <link href="figma.css" rel="stylesheet">
         <meta name="description" content="Here the 'contact us'rubric">
     </head>
 
 
     <body>
         <form action="figma.css">
-           
-                <legend>Contact Us</legend>
+
+               <header>
+                    <div class="contact_us"><h1>Contact Us</h1></div>
+                    <p>Connect with Us: Let's Discuss Your<br>
+                        Digital Marketing Needs </p>
+               </header>
+               
+                <label for="say_hi_input">Say Hi</label>
+                <input type="checkbox" name="Say Hi"  id="say_hi_input">
+
+                
+                <label for="get_a_quote_input">Get a Quote</label>
+                <input type="checkbox" name="Get a Quote" id="get_a_quote_input"><br>
+            
+
                 <label for="name_input">Name</label><br>
                 <input type="text" name="name" id="name_input" value="Name"><br>
 
                 <label for="email_input">Email*</label><br>
                 <input type="text" name="email" id="email_input" value="Email"><br>
-                <label for="message_nput">Message</label><br>
-                <input type="text" name="message" id="message_input" value="Message"><br>
+
+                <label for="message_nput">Message*</label><br>
+                <input type="text" name="message" id="message_input" class="message_box" value="Message"><br>
+
+                <input type="button" value="Send Message">
            
         </form>
 
